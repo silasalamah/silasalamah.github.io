@@ -1,0 +1,207 @@
+body {
+    background-color: rgb(231, 241, 139);
+    color: rgb(34, 78, 67);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    margin: 0;
+}
+/* link begin*/
+    a {
+        text-decoration: none;
+        color:rgb(34, 78, 67);
+    }
+    a:hover{
+        background-color:burlywood;
+    }
+    a:visited{
+        color:rgb(34, 78, 67);
+    }
+/* link End */
+
+/* container BEGIN */
+    .container {
+        width: 90%;
+        overflow: auto;
+        margin: 10px auto;
+    }
+    .container li{
+        padding: 3px;
+        letter-spacing: 1px;
+    }
+    .container-full {
+        overflow: auto;
+        margin: 10px auto;
+        background-color:rgb(122, 156, 122);
+    }
+/* container END */
+
+.logo{
+    overflow: auto;
+    text-align: center;
+}
+
+/* menu primer BEGIN */
+    .menu-primer ul {
+        background-color:rgb(122, 156, 122);
+        border-radius: 4px;
+        box-shadow: 
+            0 3px 5px -1px rgba(0, 0, 0, 0.2),
+            0 6px 10px 0 rgba(0, 0, 0, 0.14),
+            0 1px 18px 0 rgba(0, 0, 0, 0.12);
+            text-align: center;
+        }
+
+    .menu-primer li {
+        display: inline-block;
+        margin: 0 10px;
+    }
+    .menu-primer a{
+        text-transform: uppercase;
+        display: inline-block;
+        padding: 10px;
+        letter-spacing: 1px;
+        color: antiquewhite;
+        border-radius: 8px;
+    }
+
+    .menu-primer .active{
+        background-color: rgb(231, 241, 139);
+        color: black;
+        cursor: default;
+    }
+
+    .menu-primer a:hover {
+        background-color: rgb(231, 241, 139);
+        color: black;
+    }
+/*menu primer END */
+
+/* Start Jumbotron */
+    .jumbotron {
+        background-color: rgb(255, 255, 255);
+        border: solid 1px rgb(192, 226, 39);
+        border-radius: 10px;
+    }
+
+    .jumbotron h1 {
+        margin: 20px 30px;
+        font-size: 28px;
+    }
+
+    .jumbotron h3 {
+        margin: 10px 30px;
+        font-size: 18px;
+    }
+/* End Jumbotron */
+
+.copyright p {
+    font-size: 14px;
+}
+
+/* Footer box BEGIN */
+    .footer-box40 {
+        width: 40%;
+        float: left; 
+    }
+    .footer-box40 img {
+        vertical-align: middle;
+        padding: 3px;
+    }
+    .footer-box {
+        width: 20%;
+        float: left; 
+    }
+    .footer-box ul {
+        padding: 0;
+    }
+
+    .footer-box li {
+        padding: 2px 2px;
+    }
+    .footer-box40 h4 {
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+    .footer-box h4 {
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+/* Footer box END */
+
+/* Box BEGIN */
+    .box-kiri {
+        width: 49.9%;
+        float: left;
+        letter-spacing: 1px;
+    }
+    .box-kanan {
+        width: 49.9%;
+        float: right;
+        letter-spacing: 1px;
+    }
+    .box-kiri-70 {
+        width: 69.9%;
+        float: left;
+        letter-spacing: 1px;
+    }
+    .box-kiri-30 {
+        width: 29.9%;
+        float: left;
+        letter-spacing: 1px;
+    }
+    .box-kanan-30 {
+        width: 29.9%;
+        float: right;
+        letter-spacing: 1px;
+    }
+    .box-kanan-70 {
+        width: 69.9%;
+        float: right;
+        letter-spacing: 1px;
+    }
+
+    .box-header {
+        background-color: rgb(122, 156, 122);
+        border: solid 1px rgb(192, 226, 39);
+        border-top-left-radius: 4px;
+        border-top-right-radius:  4px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        padding: 10px 15px;
+        margin: 0;
+        text-transform: uppercase;
+        font-size: 16px;
+    }
+    .box-isi {
+        background-color: rgb(255, 255, 255);
+        border: solid 1px rgb(192, 226, 39);
+        border-top-width: 0px;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+        padding: 15px 20px;
+        margin: 0;
+    }
+    .box-header h3 {
+        margin: 0;
+    }
+    .box-160 {
+        height: 160px;
+    }
+    .box-750 {
+        height: 750px;
+    }
+    .box-900 {
+        height:750px;
+    }
+    .box-menu {
+        float: left;
+        letter-spacing: 1px;
+        text-align: center;
+        width: 33%;
+        height: 220px;
+        font-size: 12px;
+        border: solid 1px rgb(192, 226, 39);
+        border-radius: 5px;
+    }
+/* Box END */
